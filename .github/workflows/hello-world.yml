@@ -1,0 +1,9 @@
+name: Nom du workflow
+on: [push]  # événement déclencheur
+jobs:
+  job_id:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Étape 1
+        run: echo "Hello world"
+
